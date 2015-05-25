@@ -1,0 +1,76 @@
+var projets = [
+        {
+          nom: 'Bilboquet Microbrasserie',
+          image: '/images/bil-small.jpg',
+          description: 'dsflkjdfddfksjldlfkj',
+          categorie: 'identite'
+        },
+        {
+          nom: 'Spontanéous',
+          image: 'images/spont-small.jpg',
+          description: '',
+          categorie: 'identite'
+        },
+        {
+            nom: 'Guilbault-Thérien',
+            image: '',
+            description: 'facteurs d'orgues',
+            categorie: 'identite'
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        },
+        {
+            nom: '',
+            image: '',
+            description: '',
+            categorie: ''
+        }
+
+            ]
+            ;
