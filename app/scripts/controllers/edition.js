@@ -14,14 +14,11 @@ angular
             {
               nom: 'Bilboquet Microbrasserie',
               image: '/images/bil-small.jpg',
-              description: 'dsflkjdfddfksjldlfkj',
-              categorie: 'editiun'
+              description: 'dsflkjdfddfksjldlfkj'
             },
             {
               nom: 'Spontanéous',
-              image: 'images/spont-small.jpg',
-              description: 'dsflkjdfddfujldlfkj',
-              categorie: 'edition'
+              image: 'images/spont-small.jpg'
             }
 
                     ]
