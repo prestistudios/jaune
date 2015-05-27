@@ -9,7 +9,7 @@
  */
 angular
   .module('portfolioApp')
-    .controller('EditionCtrl', ['$scope', function ($scope) {
+    .controller('EditionCtrl', function ($scope) {
     $scope.pieces = [
             {
               nom: 'Bilboquet Microbrasserie',
@@ -24,5 +24,5 @@ angular
                     ]
                     ;
 
-  }])
+  })
   ;

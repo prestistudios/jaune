@@ -8,7 +8,6 @@
  * Controller of the parfaitApp
  */
 angular.module('portfolioApp')
-  .controller('AboutCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
-
-  }])
-  ;
+  .controller('AboutCtrl', function () {
+  
+  });
