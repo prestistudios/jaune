@@ -24,7 +24,7 @@ angular
         url: '/edition',
         templateUrl: 'views/edition.html',
         controller: 'EditionCtrl'
-      })
+    })
       .state('identite', {
         url: '/identite',
         templateUrl: 'views/identite.html',
@@ -34,8 +34,8 @@ angular
         url: '/typo',
         templateUrl: 'views/typo.html',
         controller: 'TypoCtrl'
-      })
-      ;
+    });
+
 
       $locationProvider.html5Mode(true);
   })
