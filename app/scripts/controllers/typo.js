@@ -8,6 +8,6 @@
  * Controller of the parfaitApp
  */
 angular.module('portfolioApp')
-  .controller('TypoCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
+  .controller('TypoCtrl', function () {
 
-  }]);
+  });
