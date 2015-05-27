@@ -16,26 +16,23 @@
     </aside>
     <header>
         <figure>
-            <a data-ui-sref="/edition"><img id="logo" src="images/logo3.svg" /></a>
-            <div id="window">
+            <a ui-sref="edition"><img id="logo" src="images/logo3.svg" /></a>
+
                 <figcaption>
                     <h3 style="margin: 0.5em; font-size:1.3em;">designer / directeur / réalisateur</h3>
                 </figcaption>
+                <div id="window">
             </div>
 
         </figure>
-        <nav>
-            <a ui-sref="edition">Edition</a>
-            <a ui-sref="typo">typographie</a>
-        </nav>
     </header>
-
-
+    <nav>
+     <a ui-sref="edition">Edition</a>
+     <a ui-sref="typo">typographie</a>
+ </nav>
     <div id="topbar"></div>
 
-    <div ui-view>
-
-    </div>
+    <div id="container" ui-view></div>
 
     <footer>
 
