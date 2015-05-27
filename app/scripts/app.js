@@ -11,7 +11,7 @@ angular
   .config(function ($urlRouterProvider, $locationProvider, $stateProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider
-      .state('index', {
+      .state('/', {
         url: '/',
         templateUrl: 'views/main.html'
       })
