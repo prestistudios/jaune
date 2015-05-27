@@ -22,19 +22,17 @@ body, html {
   visibility: hidden;
 
 }
-#container[ui-view] {
-    position: relative;
+.ng-enter  {
+    z-index: 8888;
 }
-#container.ng-enter,
-#container.ng-leave  {
-    transition:0.5s all ease; -moz-transition:0.5s all ease; -webkit-transition:0.5s all ease;
+.ng-leave {
+    z-index: 9999;
 }
-
 #container.ng-enter {
-  animation: fadeIn 0.7s;
+  animation: fadeIn 0.4s;
 }
 #container.ng-leave {
-  animation: fadeOut 0.7s;
+  animation: fadeOut 0.1s;
 }
 
 #window {

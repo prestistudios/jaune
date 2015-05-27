@@ -340,18 +340,11 @@ module.exports = function (grunt) {
           }
       },
 
-      cdnify: {
-          someTarget: {
-      options: {
-        base: '<%= yeoman.Base %>'
-          },
-          files: [{
-            expand: true,
-            cwd: 'app',
-            src: '**/*.{css,html}',
-            dest: 'dist'
-          }]
-        }
+    // Replace Google CDN references
+    cdnify: {
+      dist: {
+        html: ['<%= yeoman.dist %>/*.html']
+      }
     },
 
     // Copies remaining files to places other tasks can use
@@ -451,6 +444,7 @@ module.exports = function (grunt) {
     'ngAnnotate',
     'copy:dist',
     'cdnify',
+    'cssmin',
     'uglify',
     'filerev',
     'usemin',
